@@ -6,12 +6,11 @@ import styles from "./home.module.scss";
 
 const Home: React.FC = () => {
     return (
-        <div className={grid.row}>
-            <div className={grid["col-6"]}>
-                <h1 className={styles.red}>typescript environment</h1>
-            </div>
-            <div className={grid["col-6"]}>
-                <h1 className={styles.green}>this is right</h1>
+        <div className={grid.container}>
+            <div className={grid.row}>
+                <div className={grid["col-12"]}>
+                    <h1 className={styles.red}>Home</h1>
+                </div>
             </div>
         </div>
     );

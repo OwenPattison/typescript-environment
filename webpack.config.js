@@ -25,6 +25,10 @@ module.exports = {
                 use: "ts-loader"
             },
             {
+                test: /\.css$/i,
+                use: ["style-loader", "css-loader"],
+            },
+            {
                 test: /\.module.scss$/,
                 loader: [
                     isDevelopment ? "style-loader" : MiniCssExtractPlugin.loader,

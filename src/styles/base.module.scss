@@ -14,7 +14,24 @@ body {
     flex-direction: column;
     min-height: 100%;
     margin: 0;
-    font-family: sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 1.6rem;
     background: #eee;
 }
+
+/* Disabled for normalisation */
+/* stylelint-disable selector-max-type */
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+/* stylelint-enable selector-max-type */
