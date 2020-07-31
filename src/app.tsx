@@ -16,12 +16,8 @@ const App: React.FC = () => {
             <Header />
 
             <Switch>
-                <Route exact path="/">
-                    <Home />
-                </Route>
-                <Route path="/another-page">
-                    <AnotherPage />
-                </Route>
+                <Route exact path="/" component={Home} />
+                <Route path="/another-page" component={AnotherPage} />
             </Switch>
         </Router>
     );
