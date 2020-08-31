@@ -51,7 +51,7 @@
 		"neworbit-stylelint-config": "^3.0.0",
 		"node-sass": "^4.14.1",
 		"sass-loader": "^8.0.2",
-		"source-map-loader": "^1.0.0",
+		"source-map-loader": "^1.1.0",
 		"style-loader": "^1.2.1",
 		"stylelint": "^13.6.1",
 		"stylelint-no-unsupported-browser-features": "^4.0.0",
